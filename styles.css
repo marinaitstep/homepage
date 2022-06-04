@@ -131,6 +131,7 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
+    background-image: url(/assets/avatar.jpg);
 }
 
 .contact-info__avatar:hover{
@@ -191,6 +192,7 @@ body {
 .experiences__company-header-durability {
     color: var(--durability-text-color);
     text-align: left;
+ 
     margin-bottom: 10px;
     font-size: 15px;
 }
@@ -204,7 +206,6 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
 }
 
 .experiences__company-project {
@@ -254,7 +255,6 @@ body {
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
 }
 
 .additional-info__education-university-name {
@@ -274,6 +274,7 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
 
 /*certificates*/
 .cont {
@@ -302,4 +303,3 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-
