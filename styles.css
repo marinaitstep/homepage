@@ -131,8 +131,13 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
+    background-image: url(/assets/avatar.jpg);
 }
 
+.contact-info__avatar:hover{
+    width: 300px;
+    height: 300px;
+}
 
 /*Intro and skills styles*/
 .intro {
@@ -270,3 +275,31 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+/*certificates*/
+.cont {
+    width: 100%;
+  display: flex;
+  padding: 0 20px;
+  }
+  .slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+  }
+    
+  .slide.active{
+    flex: 10;
+  }
+  .doc{
+    margin-left: auto;
+    margin-right: auto;
+  }
