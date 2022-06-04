@@ -138,7 +138,6 @@ body {
     height: 300px;
 }
 
-
 /*Intro and skills styles*/
 .intro {
     display: flex;
@@ -196,7 +195,6 @@ body {
     font-size: 15px;
 }
 
-
 .experiences__details{
     padding-bottom: 10px;
 }
@@ -206,9 +204,7 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-
     margin-bottom: 20px;
-
 }
 
 .experiences__company-project {
@@ -278,10 +274,6 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
-
-}
-
-
 
 /*certificates*/
 .cont {
