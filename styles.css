@@ -133,6 +133,10 @@ body {
     border-color: var(--text-decoration-color);
 }
 
+.contact-info__avatar:hover{
+    width: 300px;
+    height: 300px;
+}
 
 /*Intro and skills styles*/
 .intro {
@@ -187,7 +191,6 @@ body {
 .experiences__company-header-durability {
     color: var(--durability-text-color);
     text-align: left;
- 
     margin-bottom: 10px;
     font-size: 15px;
 }
@@ -201,6 +204,7 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .experiences__company-project {
@@ -250,6 +254,7 @@ body {
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
+    margin-bottom: 10px;
 }
 
 .additional-info__education-university-name {
@@ -269,4 +274,32 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
-}
+
+/*certificates*/
+.cont {
+    width: 100%;
+  display: flex;
+  padding: 0 20px;
+  }
+  .slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+  }
+    
+  .slide.active{
+    flex: 10;
+  }
+  .doc{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
