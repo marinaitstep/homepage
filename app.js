@@ -25,7 +25,7 @@ slidesPlugin(0)
 function but(){
     let dots = document.querySelector('.but');
     dots.addEventListener('click', () => {
-        dots.innerHTML=", but below junior level &#128561; My favorite stack is MERN and I love to mock your photos &#128521;";
+        dots.innerHTML=", but below junior level &#128561; My favorite stack is <a href='https://pensive-davinci-c419fe.netlify.app/' target='_blank'>MERN</a> and I love to mock your <a href='assets/hw.jpg'>photos</a> &#128521;";
     })
 }
 but();
