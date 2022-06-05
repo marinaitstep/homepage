@@ -305,4 +305,6 @@ body {
   .icon-download{
     color: var(--text-decoration-color);
   }
-  
+  a{
+    color: var(--secondary-text-color);
+  }
