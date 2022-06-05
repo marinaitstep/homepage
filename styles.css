@@ -131,7 +131,6 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
-    background-image: url(/assets/avatar.jpg);
 }
 
 .contact-info__avatar:hover{
