@@ -308,3 +308,11 @@ body {
   a{
     color: var(--secondary-text-color);
   }
+  
+  #hw_click{
+      text-decoration: underline;
+  }
+  #hw_photo{
+    text-align: center;
+  }
+ 
